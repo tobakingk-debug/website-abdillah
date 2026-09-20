@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abdillah Hakiki Herdiansyah</title>
+
+    <link rel="stylesheet" href="tes.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="grid"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <!-- ================= LOGIN ================= -->
+    <div class="login-page" id="loginPage">
+
+        <div class="login-card">
+
+            <div class="logo">
+                AH
+            </div>
+
+            <p class="mini-title">WELCOME TO</p>
+
+            <h1>
+                ABDILLAH
+                <span>HAKIKI</span>
+            </h1>
+
+            <p class="subtitle">
+                Silakan masuk untuk melanjutkan
+            </p>
+
+
+            <!-- EMAIL -->
+            <div class="input-group">
+
+                <label for="email">
+                    Email
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>✉</span>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Masukkan email"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- PASSWORD -->
+            <div class="input-group">
+
+                <label for="password">
+                    Sandi
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>🔒</span>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Masukkan sandi"
+                    >
+
+                    <button
+                        type="button"
+                        id="togglePassword"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- LOGIN -->
+            <button
+                class="login-button"
+                id="loginButton"
+            >
+                MASUK
+                <span>→</span>
+            </button>
+
+
+            <!-- PESAN -->
+            <p id="message"></p>
+
+
+            <!-- BANTUAN -->
+            <div class="help-box">
+
+                <div class="help-icon">
+                    ?
+                </div>
+
+                <div>
+                    <h3>Tidak bisa masuk?</h3>
+
+                    <p>
+                        Jika email atau sandi tidak bisa digunakan,
+                        silakan hubungi:
+                    </p>
+
+                    <a href="tel:087768546367">
+                        📞 087768546367
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= HOME ================= -->
+    <div class="home-page" id="homePage">
+
+        <nav>
+
+            <div class="nav-logo">
+                AH
+            </div>
+
+            <div class="nav-name">
+                ABDILLAH HAKIKI
+            </div>
+
+            <button id="logoutButton">
+                Keluar
+            </button>
+
+        </nav>
+
+
+        <main class="hero">
+
+            <div class="hero-content">
+
+                <div class="status">
+                    ● WEBSITE AKTIF
+                </div>
+
+                <h1>
+                    HALO! 👋
+                </h1>
+
+                <h2>
+                    Selamat Datang di Website
+                    <span>
+                        Abdillah Hakiki Herdiansyah
+                    </span>
+                </h2>
+
+                <p>
+                    Terima kasih sudah berkunjung.
+                    Selamat datang di website Abdillah Hakiki
+                    Herdiansyah. Silakan menjelajahi website
+                    dan nikmati tampilan yang sederhana,
+                    modern, dan unik.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button id="startButton">
+                        🚀 MULAI
+                    </button>
+
+                    <a href="tel:087768546367">
+                        📞 HUBUNGI ADMIN
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Kartu kanan -->
+
+            <div class="info-card">
+
+                <div class="circle">
+                    AH
+                </div>
+
+                <h3>
+                    ABDILLAH HAKIKI
+                </h3>
+
+                <p>
+                    HERDIANSYAH
+                </p>
+
+                <div class="line"></div>
+
+                <div class="info-item">
+                    <span>⚡</span>
+                    <div>
+                        <b>Simple</b>
+                        <small>Mudah digunakan</small>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>💻</span>
+                    <div>
+                        <b>Modern</b>
+                        <small>Desain cyber modern</small>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>🚀</span>
+                    <div>
+                        <b>Creative</b>
+                        <small>Dibuat dengan HTML, CSS & JS</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <footer>
+            ABDILLAH HAKIKI HERDIANSYAH © 2026
+        </footer>
+
+    </div>
+
+
+    <script src="tes.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Abdillah Hakiki</title>
+    <link rel="stylesheet" href="tes.css">
+</head>
+<body>
+
+    <div class="game-box">
+        <h1>🐉 DRAGON CATCH</h1>
+        <h2>ABDILLAH HAKIKI HERDIANSYAH</h2>
+
+        <div class="info">
+            <div>LEVEL <span id="level">1</span>/10</div>
+            <div>SKOR <span id="score">0</span></div>
+            <div>NYAWA <span id="lives">3</span> ❤️</div>
+        </div>
+
+        <p id="message">Tekan MULAI untuk bermain!</p>
+
+        <div id="gameArea">
+            <button id="target">🐉</button>
+        </div>
+
+        <button id="startBtn">▶ MULAI GAME</button>
+        <button id="restartBtn">🔄 ULANGI</button>
+    </div>
+
+    <script src="tes.js"></script>
+</body>
+</html>
